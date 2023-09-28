@@ -1,0 +1,309 @@
+  @font-face {
+        font-family:mifuentepersonalizada ;
+        src: url(../fonts/Beach\ House.otf);
+    }
+    @font-face {
+        font-family: mifuentepersonalizada2;
+        src: url(../fonts/Simple\ Beach.otf);
+    }
+h1{
+    font-family: 'mifuentepersonalizada', sans-serif; 
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    font-family: 'mifuentepersonalizada', sans-serif;
+    font-size: 30px;   
+}
+    h3{
+    font-family: 'mifuentepersonalizada2',sans-serif;
+    }
+    h4{
+    font-family: 'mifuentepersonalizada2',sans-serif;
+    }
+
+body{
+    text-align: center;
+    margin: auto;
+    
+}
+.titulo{
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.logo{
+    height: 250px;
+}
+.titulofont{
+    font-size: 60px;
+    
+}
+.subtitulo{
+    font-size: 50px;
+    background-color: black;
+    height: 100px;
+    border-radius: 10px;
+    border: 5px solid white;
+    padding: 10px;
+    color: white;
+    margin-top: 145px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    
+}   
+ul{
+    display: flex;
+    margin: 0;
+    background-color: black;
+
+}
+li{
+    list-style: none;
+    margin-top: 35px;
+    margin-left: 30px;
+    
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 80px;
+}
+
+#fotolink{
+   height: 100px;
+   padding: 0;
+   margin: 0;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.img-cartas{
+    height: 400px;
+    width: 563px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.cartas{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'mifuentepersonalizada2', sans-serif ;
+}
+.linea-vertical{
+    width: 25px;
+    height: 400px;
+    background-color: orange;  
+}
+#cards2{
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    margin-top: 50px;
+}
+.img-cartas2{
+    width: 400px;
+    width: 563px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.cartas2{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'mifuentepersonalizada2', sans-serif ;
+}
+.footer{
+    display: flex;
+}
+.links{
+    text-align: center;
+    background-color: orange;
+}
+.img-link{
+    display: flex;
+    justify-content: center;
+}
+.contenedor {
+    position: relative;
+    display: inline-block;
+}
+.imagen {
+    display: block;
+    height: 500px;
+    padding: 20px;
+}
+.boton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+/* page productos */
+.infodeproductos{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.linea-vertical-productos{
+    width: 2px;
+    height: 100px;
+    background-color: black;
+}
+.img-infoproductos{
+    height: 25px;
+}
+.cuadrodecompra{
+    display: inline-block;
+    padding: 80px;
+}
+.nombre-producto{
+    font-family: 'mifuentepersonalizada', sans-serif;
+
+}
+.precio-producto{
+    font-weight: bold;
+    font-family: 'mifuentepersonalizada', sans-serif;
+}
+.tarjetadecredito{
+    border: 3px solid orange;
+    color: orange;
+    margin: 0;
+    margin-top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.botondecompra{
+    background-color: orange; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+/* page blog */
+
+.contenedor-blog{
+    display: flex; 
+  
+  padding: 20px; /* Espaciado interno de la tarjeta */
+  border: 2px solid #ccc; /* Borde sólido de 2 píxeles de ancho con color gris */
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  background-color: #fff; /* Color de fondo de la tarjeta */
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;  
+}
+.subtitulo-blog{
+   font-size: 50px;
+}
+.text-blog{
+   font-size: 23px;
+   font-family: 'mifuentepersonalizada2', sans-serif ;
+}
+.img-blog{
+   align-items: left; 
+   margin-left: 50px;
+}
+
+/* page soporte */
+.formulario{
+   display: grid;
+   justify-content: left;
+   margin-top: 70px;
+}
+.bloque-cuenta{
+   padding: 15px;
+   margin-bottom: 20px;
+   width: 400px;
+   font-family: 'mifuentepersonalizada2', sans-serif ;
+   font-size: 15px;
+   
+}
+.bloque-soporte{
+   padding: 80px;
+   width: 270px;
+   font-family: 'mifuentepersonalizada2', sans-serif ;
+   font-size: 15px;
+}
+.btn-enviar{
+    border: 3px solid orange;
+    background-color: orange;
+    color: white;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 5px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    ul {
+        flex-direction: column; /* Cambiamos la dirección a columna para vista móvil */
+    }
+
+    li {
+        margin-top: 15px; /* Reducimos el espacio entre elementos de lista */
+        margin-left: 0; /* Eliminamos el margen izquierdo para ajustar a la columna */
+    }
+
+    li a {
+        margin-left: 0; /* Eliminamos el margen izquierdo para ajustar a la columna */
+    }
+    .contenedor-blog {
+        flex-direction: column; /* Cambiamos la dirección a columna para vista móvil */
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px; /* Reducimos el espaciado interno de la tarjeta */
+    }
+
+    .subtitulo-blog {
+        font-size: 36px; /* Reducimos el tamaño de fuente para dispositivos móviles */
+        text-align: center; /* Centramos el texto */
+    }
+
+    .text-blog {
+        font-size: 18px; /* Reducimos el tamaño de fuente para dispositivos móviles */
+        text-align: left; /* Alineamos el texto a la izquierda */
+    }
+
+    .img-blog {
+        margin-left: 0; /* Eliminamos el margen izquierdo */
+    }
+    .formulario {
+        margin-top: 40px; /* Reducimos el margen superior */
+    }
+
+    .bloque-cuenta {
+        width: 100%; /* Hacemos que ocupe el ancho completo */
+    }
+
+    .bloque-soporte {
+        padding: 20px; /* Reducimos el padding para dispositivos móviles */
+        width: 100%; /* Hacemos que ocupe el ancho completo */
+    }
+
+    .btn-enviar {
+        width: 100%; /* Hacemos que ocupe el ancho completo */
+    }
+}
