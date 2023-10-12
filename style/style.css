@@ -170,6 +170,7 @@ li a{
 .cuadrodecompra{
     display: inline-block;
     padding: 80px;
+    
 }
 .nombre-producto{
     font-family: 'mifuentepersonalizada', sans-serif;
@@ -259,51 +260,51 @@ li a{
 
 @media screen and (max-width: 600px) {
     ul {
-        flex-direction: column; /* Cambiamos la dirección a columna para vista móvil */
+        flex-direction: column; 
     }
 
     li {
-        margin-top: 15px; /* Reducimos el espacio entre elementos de lista */
-        margin-left: 0; /* Eliminamos el margen izquierdo para ajustar a la columna */
+        margin-top: 15px; 
+        margin-left: 0; 
     }
 
     li a {
-        margin-left: 0; /* Eliminamos el margen izquierdo para ajustar a la columna */
+        margin-left: 0; 
     }
     .contenedor-blog {
-        flex-direction: column; /* Cambiamos la dirección a columna para vista móvil */
+        flex-direction: column; 
         margin-left: 10px;
         margin-right: 10px;
-        padding: 10px; /* Reducimos el espaciado interno de la tarjeta */
+        padding: 10px; 
     }
 
     .subtitulo-blog {
-        font-size: 36px; /* Reducimos el tamaño de fuente para dispositivos móviles */
-        text-align: center; /* Centramos el texto */
+        font-size: 36px; 
+        text-align: center; 
     }
 
     .text-blog {
-        font-size: 18px; /* Reducimos el tamaño de fuente para dispositivos móviles */
-        text-align: left; /* Alineamos el texto a la izquierda */
+        font-size: 18px; 
+        text-align: left; 
     }
 
     .img-blog {
-        margin-left: 0; /* Eliminamos el margen izquierdo */
+        margin-left: 0; 
     }
     .formulario {
-        margin-top: 40px; /* Reducimos el margen superior */
+        margin-top: 40px; 
     }
 
     .bloque-cuenta {
-        width: 100%; /* Hacemos que ocupe el ancho completo */
+        width: 100%; 
     }
 
     .bloque-soporte {
-        padding: 20px; /* Reducimos el padding para dispositivos móviles */
-        width: 100%; /* Hacemos que ocupe el ancho completo */
+        padding: 20px; 
+        width: 100%; 
     }
 
     .btn-enviar {
-        width: 100%; /* Hacemos que ocupe el ancho completo */
+        width: 100%; 
     }
 }
