@@ -252,7 +252,7 @@
   /* page soporte */
   formulario {
     display: grid;
-    justify-content: left;
+    justify-content: center;
     margin-top: 70px;
   }
   
@@ -282,6 +282,9 @@
     margin-bottom: 5px;
     width: 200px;
     margin-top: 20px;
+  }
+  .text-sopprte {
+    font-family: 'mifuentepersonalizada', sans-serif;
   }
   
   @media screen and (max-width: 600px) {

@@ -248,13 +248,13 @@ img-blog {
 }
 
 /* page soporte */
-formulario {
+.formulario {
   display: grid;
-  justify-content: left;
+  justify-content: center;
   margin-top: 70px;
 }
 
-bloque-cuenta {
+.bloque-cuenta {
   padding: 15px;
   margin-bottom: 20px;
   width: 400px;
@@ -262,14 +262,14 @@ bloque-cuenta {
   font-size: 15px;
 }
 
-bloque-soporte {
+.bloque-soporte {
   padding: 80px;
   width: 270px;
   font-family: "mifuentepersonalizada2", sans-serif;
   font-size: 15px;
 }
 
-btn-enviar {
+.btn-enviar {
   border: 3px solid orange;
   background-color: orange;
   color: white;
@@ -281,7 +281,9 @@ btn-enviar {
   width: 200px;
   margin-top: 20px;
 }
-
+.text-soporte{
+  font-family:'mifuentepersonalizada2', sans-serif;
+}
 @media screen and (max-width: 600px) {
   ul {
     flex-direction: column;
