@@ -1,0 +1,35 @@
+ul {
+    display: flex;
+    margin: 0;
+    background-color: black;
+  }
+  
+  li {
+    list-style: none;
+    margin-top: 35px;
+    margin-left: 30px;
+  }
+  
+  li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 80px;
+  }
+  @media (max-width: 1018px) {
+    ul {
+      flex-direction: column;
+    }
+  
+    li {
+      margin-top: 15px;
+      margin-left: 0;
+    }
+  
+    li a {
+      margin-left: 0;
+    }
+  }
+
+
+/*# sourceMappingURL=navbar.css.map */
