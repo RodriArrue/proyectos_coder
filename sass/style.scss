@@ -1,3 +1,6 @@
+@import url(_footer.scss);
+@import url(_navbar.scss);
+@import url(_variables.scss);
 html, body {
   width: 100%!important;
   overflow-x: hidden!important;
@@ -51,7 +54,7 @@ html, body {
   
   .subtitulo {
     font-size: 50px;
-    background-color: black;
+    background-color: $color-terciario;
     height: 100px;
     border-radius: 10px;
     padding: 10px;
@@ -91,7 +94,7 @@ html, body {
   .linea-vertical {
     width: 25px;
     height: 400px;
-    background-color: orange;
+    background-color: $color-primario;
   }
   
   #cards2 {
@@ -120,7 +123,7 @@ html, body {
   
   .links {
     text-align: center;
-    background-color: orange;
+    background-color: $color-primario;
   }
   
   .img-link {
@@ -144,7 +147,7 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: orange;
+    background-color: $color-primario;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -164,7 +167,7 @@ html, body {
      .linea-vertical-productos {
        width: 2px;
        height: 100px;
-       background-color: black;
+       background-color: $color-terciario;
       }
   
        .img-infoproductos {
@@ -186,8 +189,8 @@ html, body {
               }
   
                .tarjetadecredito {
-                 border: 3px solid orange;
-                 color: orange;
+                 border: 3px solid $color-primario;
+                 color: $color-primario;
                  margin: 0;
                  margin-top: 0;
                  white-space: nowrap;
@@ -197,8 +200,8 @@ html, body {
                 }
   
                   .botondecompra {
-                   background-color: orange;
-                   color: #fff;
+                   background-color: $color-primario;
+                   color: $color-secundario;
                    padding: 10px 20px;
                    border: none;
                    border-radius: 5px;
@@ -214,7 +217,7 @@ html, body {
      border: 2px solid #ccc;
      border-radius: 10px;
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-     background-color: #fff;
+     background-color: $color-secundario;
      margin-left: 50px;
      margin-right: 50px;
      margin-bottom: 30px;
@@ -257,8 +260,8 @@ html, body {
       }
   
        btn-enviar {
-         border: 3px solid orange;
-         background-color: orange;
+         border: 3px solid $color-primario;
+         background-color: $color-primario;
          color: white;
          margin: 0;
          white-space: nowrap;
@@ -320,23 +323,21 @@ html, body {
       height: 80px;
     }
   
-    #cards,
-    #cards2 {
-      margin-top: 20px;
+    #cards {
+      flex-direction: column;
+      text-align: center;
     }
   
-    .img-cartas,
-    .img-cartas2 {
-      width: 325px;
-      height: 200px;
-      margin-left: 10px;
-      margin-right: 10px;
+    .img-cartas {
+      display: none;
     }
   
-    .cartas,
-    .cartas2 {
-      margin-left: 10px;
-      margin-right: 10px;
+    .cartas {
+      margin: 0; 
+    }
+  
+    .linea-vertical {
+      display: none; 
     }
     .imagen {
       height: 300px;

@@ -1,325 +1,334 @@
 html, body {
-  width: 100% !important;
-  overflow-x: hidden !important;
-}
-
-@font-face {
-  font-family: mifuentepersonalizada;
-  src: url(../fonts/Beach\ House.otf);
+  width: 100%!important;
+  overflow-x: hidden!important;
 }
 @font-face {
-  font-family: mifuentepersonalizada2;
-  src: url(../fonts/Simple\ Beach.otf);
-}
-h1 {
-  font-family: "mifuentepersonalizada", sans-serif;
-  font-size: 50px;
-  text-align: center;
-}
-
-h2 {
-  font-family: "mifuentepersonalizada", sans-serif;
-  font-size: 30px;
-}
-
-h3 {
-  font-family: "mifuentepersonalizada2", sans-serif;
-}
-
-h4 {
-  font-family: "mifuentepersonalizada2", sans-serif;
-}
-
-body {
-  text-align: center;
-  margin: auto;
-}
-
-.titulo {
-  text-align: center;
-  margin-top: 80px;
-}
-
-.logo {
-  height: 250px;
-}
-
-.titulofont {
-  font-size: 60px;
-}
-
-.subtitulo {
-  font-size: 50px;
-  background-color: black;
-  height: 100px;
-  border-radius: 10px;
-  padding: 10px;
-  color: white;
-  margin-top: 145px;
-  margin-left: 20px;
-  margin-right: 20px;
-  text-align: center;
-  justify-content: center;
-}
-
-#fotolink {
-  height: 100px;
-  padding: 0;
-  margin: 0;
-}
-
-#cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.img-cartas {
-  height: 400px;
-  width: 563px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.cartas {
-  margin-left: 50px;
-  margin-right: 50px;
-  font-family: "mifuentepersonalizada2", sans-serif;
-}
-
-.linea-vertical {
-  width: 25px;
-  height: 400px;
-  background-color: orange;
-}
-
-#cards2 {
-  display: flex;
-  margin-top: 70px;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.img-cartas2 {
-  width: 400px;
-  width: 563px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.cartas2 {
-  margin-left: 50px;
-  margin-right: 50px;
-  font-family: "mifuentepersonalizada2", sans-serif;
-}
-
-.footer {
-  display: flex;
-}
-
-.links {
-  text-align: center;
-  background-color: orange;
-}
-
-.img-link {
-  display: flex;
-  justify-content: center;
-}
-
-.contenedor {
-  position: relative;
-  display: inline-block;
-}
-
-.imagen {
-  display: block;
-  height: 500px;
-  padding: 20px;
-}
-
-.boton {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: orange;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-/* page productos */
-.infodeproductos {
-  display: flex;
-  text-align: center;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.infodeproductos .linea-vertical-productos {
-  width: 2px;
-  height: 100px;
-  background-color: black;
-}
-.infodeproductos .img-infoproductos {
-  height: 25px;
-}
-.infodeproductos .cuadrodecompra {
-  display: inline-block;
-  padding: 80px;
-}
-.infodeproductos .nombre-producto {
-  font-family: "mifuentepersonalizada", sans-serif;
-}
-.infodeproductos precio-producto {
-  font-weight: bold;
-  font-family: "mifuentepersonalizada", sans-serif;
-}
-.infodeproductos .tarjetadecredito {
-  border: 3px solid orange;
-  color: orange;
-  margin: 0;
-  margin-top: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  padding: 5px;
-  margin-bottom: 5px;
-}
-.infodeproductos .botondecompra {
-  background-color: orange;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-/* page blog */
-contenedor-blog {
-  display: flex;
-  padding: 20px;
-  border: 2px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 30px;
-}
-contenedor-blog subtitulo-blog {
-  font-size: 50px;
-}
-contenedor-blog text-blog {
-  font-size: 23px;
-  font-family: "mifuentepersonalizada2", sans-serif;
-}
-contenedor-blog img-blog {
-  align-items: left;
-  margin-left: 50px;
-}
-
-/* page soporte */
-.formulario {
-  display: grid;
-  justify-content: center;
-  margin-top: 70px;
-}
-.formulario bloque-cuenta {
-  padding: 15px;
-  margin-bottom: 20px;
-  width: 400px;
-  font-family: "mifuentepersonalizada2", sans-serif;
-  font-size: 15px;
-}
-.formulario bloque-soporte {
-  padding: 80px;
-  width: 270px;
-  font-family: "mifuentepersonalizada2", sans-serif;
-  font-size: 15px;
-}
-.formulario btn-enviar {
-  border: 3px solid orange;
-  background-color: orange;
-  color: white;
-  margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  padding: 15px;
-  margin-bottom: 5px;
-  width: 200px;
-  margin-top: 20px;
-}
-.formulario .text-soporte {
-  font-family: "mifuentepersonalizada", sans-serif;
-}
-
-@media screen and (max-width: 400px) {
+    font-family: mifuentepersonalizada;
+    src: url(../fonts/Beach\ House.otf);
+  }
+  @font-face {
+    font-family: mifuentepersonalizada2;
+    src: url(../fonts/Simple\ Beach.otf);
+  }
   h1 {
-    font-size: 36px;
+    font-family: "mifuentepersonalizada", sans-serif;
+    font-size: 50px;
+    text-align: center;
   }
+  
   h2 {
-    font-size: 24px;
-  }
-  .titulo {
-    margin-top: 20px;
-  }
-  .logo {
-    height: 150px;
-  }
-  .titulofont {
-    font-size: 40px;
-  }
-  .subtitulo {
+    font-family: "mifuentepersonalizada", sans-serif;
     font-size: 30px;
-    margin-top: 45px;
-    margin-left: 10px;
-    margin-right: 10px;
   }
-  ul {
-    flex-direction: column;
+  
+  h3 {
+    font-family: "mifuentepersonalizada2", sans-serif;
   }
-  li {
-    margin-top: 15px;
-    margin-left: 0;
+  
+  h4 {
+    font-family: "mifuentepersonalizada2", sans-serif;
   }
-  li a {
-    margin-left: 0;
+  
+  body {
+    text-align: center;
+    margin: auto;
   }
+  
+  .titulo {
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .logo {
+    height: 250px;
+  }
+  
+  .titulofont {
+    font-size: 60px;
+  }
+  
+  .subtitulo {
+    font-size: 50px;
+    background-color: black;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin-top: 145px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  
   #fotolink {
-    height: 80px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
   }
-  #cards,
+  
+  #cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .img-cartas {
+    height: 400px;
+    width: 563px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .cartas {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "mifuentepersonalizada2", sans-serif;
+  } 
   #cards2 {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .img-cartas2 {
+    width: 400px;
+    width: 563px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .cartas2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "mifuentepersonalizada2", sans-serif;
+  }
+  
+  .footer {
+    display: flex;
+  }
+  
+  .links {
+    text-align: center;
+    background-color: orange;
+  }
+  
+  .img-link {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contenedor {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .imagen {
+    display: block;
+    height: 500px;
+    padding: 20px;
+  }
+  
+  .boton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* page productos */
+  .infodeproductos {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .linea-vertical-productos {
+    width: 2px;
+    height: 100px;
+    background-color: black;
+  }
+  
+  .img-infoproductos {
+    height: 25px;
+  }
+  
+  .cuadrodecompra {
+    display: inline-block;
+    padding: 80px;
+  }
+  
+  .nombre-producto {
+    font-family: "mifuentepersonalizada", sans-serif;
+  }
+  
+  .precio-producto {
+    font-weight: bold;
+    font-family: "mifuentepersonalizada", sans-serif;
+  }
+  
+  .tarjetadecredito {
+    border: 3px solid orange;
+    color: orange;
+    margin: 0;
+    margin-top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .botondecompra {
+    background-color: orange;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* page blog */
+  .contenedor-blog {
+    display: flex;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .subtitulo-blog {
+    font-size: 50px;
+  }
+  
+  .text-blog {
+    font-size: 23px;
+    font-family: "mifuentepersonalizada2", sans-serif;
+  }
+  
+  .img-blog {
+    align-items: left;
+    margin-left: 50px;
+  }
+  
+  /* page soporte */
+  .formulario {
+    display: grid;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  
+  .bloque-cuenta {
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 400px;
+    font-family: "mifuentepersonalizada2", sans-serif;
+    font-size: 15px;
+  }
+  
+  .bloque-soporte {
+    padding: 80px;
+    width: 270px;
+    font-family: "mifuentepersonalizada2", sans-serif;
+    font-size: 15px;
+  }
+  
+  .btn-enviar {
+    border: 3px solid orange;
+    background-color: orange;
+    color: white;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 5px;
+    width: 200px;
     margin-top: 20px;
   }
-  .img-cartas,
-  .img-cartas2 {
-    width: 325px;
-    height: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
+  .text-soporte{
+    font-family:'mifuentepersonalizada2', sans-serif;
   }
-  .cartas,
-  .cartas2 {
-    margin-left: 10px;
-    margin-right: 10px;
+  @media screen and (max-width: 426px) {
+    .contenedor-blog {
+      flex-direction: column;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
+    }
+    .subtitulo-blog {
+      font-size: 36px;
+      text-align: center;
+    }
+    .text-blog {
+      font-size: 18px;
+      text-align: left;
+    }
+    .img-blog {
+      margin-left: 0;
+    }
+    .formulario {
+      margin-top: 40px;
+    }
+    .bloque-cuenta {
+      width: 100%;
+    }
+    .bloque-soporte {
+      padding: 20px;
+      width: 100%;
+    }
+    .btn-enviar {
+      width: 100%;
+    }
+    #cards{
+      flex-direction: column;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
+    }
+    #cards2{
+      flex-direction: column;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
+    }
+    .img-cartas{
+      width: 250px;
+      height: 250px;
+    }
+    .img-cartas2{
+      width: 250px;
+      height: 250px;
+    }
+    .infodeproductos {
+      flex-direction: column;
+    }
+    .linea-vertical-productos{
+      width: 350px;
+      height: 5px;
+    }
+    .subtitulo{
+      height: 200px;
+    }
+    .contenedor{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
   }
-  .imagen {
-    height: 300px;
-    padding: 10px;
-  }
-  .boton {
-    position: static;
-    margin: 10px auto;
-  }
-  .subtitulo {
-    height: 200px;
-  }
-}
+
+  
+
 
 /*# sourceMappingURL=style.css.map */
